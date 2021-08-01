@@ -10,6 +10,7 @@ To add the starter to a Maven-based project, add the following dependency:
 	<dependency>
 		<groupId>io.github.selevinia</groupId>
 		<artifactId>selevinia-spring-boot-starter-data-tarantool-reactive</artifactId>
+		<version>${version}</version>
 	</dependency>
 </dependencies>
 ```
@@ -17,7 +18,7 @@ To add the starter to a Maven-based project, add the following dependency:
 For Gradle, use the following declaration:
 ```gradle
 dependencies {
-    implementation 'io.github.selevinia:selevinia-spring-boot-starter-data-tarantool-reactive'
+    implementation "io.github.selevinia:selevinia-spring-boot-starter-data-tarantool-reactive:$version"
 }
 ```
 
