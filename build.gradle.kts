@@ -1,5 +1,5 @@
 group = "io.github.selevinia"
-version = "0.1.0"
+version = "0.2.0"
 description = "Spring boot starter for Reactive Spring Data module for Tarantool"
 
 plugins {
@@ -20,7 +20,7 @@ configure<JavaPluginConvention> {
 
 dependencies {
     api("org.springframework.boot:spring-boot-starter:2.5.2")
-    api("io.github.selevinia:spring-data-tarantool:0.1.0")
+    api("io.github.selevinia:spring-data-tarantool:0.2.0")
     api("io.tarantool:cartridge-driver:0.4.3")
     api("io.projectreactor:reactor-core:3.4.7")
 
