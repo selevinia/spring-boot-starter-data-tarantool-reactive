@@ -1,4 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  org.springframework.boot.autoconfigure.data.tarantool.TarantoolReactiveAutoConfiguration,\
-  org.springframework.boot.autoconfigure.data.tarantool.TarantoolReactiveDataAutoConfiguration,\
-  org.springframework.boot.autoconfigure.data.tarantool.TarantoolReactiveRepositoriesAutoConfiguration
