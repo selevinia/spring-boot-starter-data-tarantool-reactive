@@ -1,6 +1,6 @@
 # Spring boot starter for using Tarantool database and Spring Data Tarantool Reactive
 
-This project provides Spring Boot starters that allow you to work with Tarantool database in your Spring Boot applications.
+This project provides Spring Boot starter that allow you to work with Tarantool database in your Spring Boot applications in reactive style.
 
 ## How to use in your project
 
