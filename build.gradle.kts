@@ -1,5 +1,5 @@
 group = "io.github.selevinia"
-version = "0.4.0"
+version = "0.5.0"
 description = "Spring boot starter for Reactive Spring Data module for Tarantool"
 
 plugins {
@@ -13,15 +13,15 @@ repositories {
     mavenCentral()
 }
 
-configure<JavaPluginConvention> {
-    sourceCompatibility = JavaVersion.VERSION_11
-    targetCompatibility = JavaVersion.VERSION_11
+configure<JavaPluginExtension> {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
 
 dependencies {
-    api("org.springframework.boot:spring-boot-starter:2.7.18")
-    api("io.github.selevinia:selevinia-spring-boot-autoconfigure-tarantool:0.4.0")
-    api("io.github.selevinia:spring-data-tarantool:0.4.0")
+    api("org.springframework.boot:spring-boot-starter:3.2.4")
+    api("io.github.selevinia:selevinia-spring-boot-autoconfigure-tarantool:0.5.0")
+    api("io.github.selevinia:spring-data-tarantool:0.5.0")
     api("io.tarantool:cartridge-driver:0.13.0")
     api("io.projectreactor:reactor-core:3.6.4")
 }
